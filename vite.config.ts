@@ -72,6 +72,9 @@ export default defineConfig((config) => {
         },
       },
     },
+    server: {
+      allowedHosts: ['boltdiy-production-6599.up.railway.app'],
+    },
     test: {
       exclude: [
         '**/node_modules/**',
